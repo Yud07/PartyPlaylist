@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Party Playlist</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_settings2">Settings</string>
+    <string name="pref_header_sftp">SFTP</string>
+    <string name="pref_header_temporary">Temporary</string>
+
+    <string name="dl_file_extension">.csv</string>
+    <string name="dl_directory">Party Playlist</string>
+</resources>

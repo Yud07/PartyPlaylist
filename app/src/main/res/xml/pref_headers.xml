@@ -1,0 +1,19 @@
+<preference-headers xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- These settings headers are only used on tablets. -->
+
+    <header
+        android:fragment="wristonfroze.partyplaylist.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_sync_black_24dp"
+        android:title="@string/pref_header_sftp">
+        <extra android:name="settings" android:value="prefs_general" ></extra>
+    </header>
+
+    <header
+        android:fragment="wristonfroze.partyplaylist.SettingsActivity$GeneralPreferenceFragment"
+        android:icon="@drawable/ic_info_black_24dp"
+        android:title="@string/pref_header_temporary" >
+        <extra android:name="settings" android:value="prefs_notification" ></extra>
+    </header>
+
+</preference-headers>

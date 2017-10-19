@@ -1,0 +1,39 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditTextPreference
+        android:key="ip"
+        android:title="Server IP"
+        android:summary="Enter Your Server's IP"
+        android:dialogTitle="Server IP"
+        android:dialogMessage="Enter Your Server's IP"
+        android:defaultValue=""
+        android:inputType="text"/>
+
+    <EditTextPreference
+        android:key="username"
+        android:title="Username"
+        android:summary="Enter Your Username"
+        android:dialogTitle="Username"
+        android:dialogMessage="Enter Your Username"
+        android:defaultValue=""
+        android:inputType="text"/>
+
+    <EditTextPreference
+        android:key="password"
+        android:title="Password"
+        android:summary="Enter Your Password"
+        android:dialogTitle="Password"
+        android:dialogMessage="Enter Your Password"
+        android:defaultValue=""
+        android:inputType="textPassword"/>
+
+    <EditTextPreference
+        android:key="path"
+        android:title="Log Directory Path (Optional)"
+        android:summary="Enter Path (Default: /home/[username]/Logs)"
+        android:dialogTitle="Log Directory"
+        android:dialogMessage="Enter Path (Default: /home/[username]/Logs)"
+        android:defaultValue=""
+        android:inputType="text"/>
+
+</PreferenceScreen>

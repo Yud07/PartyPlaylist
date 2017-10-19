@@ -1,0 +1,25 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- A 'parent' preference, which enables/disables child preferences (below)
+         when checked/unchecked. -->
+    <SwitchPreference
+        android:defaultValue="true"
+        android:key="switch"
+        android:title="Switch" />
+
+    <CheckBoxPreference
+        android:key="checkbox"
+        android:summary="Enable or disable CheckBox"
+        android:title="ECheckBox"
+        android:defaultValue="false"/>
+
+    <EditTextPreference
+        android:key="edittext"
+        android:title="EditText"
+        android:summary="Enter Value"
+        android:dialogTitle="EditText"
+        android:dialogMessage="Enter Value"
+        android:defaultValue=""
+        android:inputType="number"/>
+
+</PreferenceScreen>
