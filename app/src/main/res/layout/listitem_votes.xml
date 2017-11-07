@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_margin="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/voteNameLabel"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:clickable="true"/>
+
+    <TextView
+        android:id="@+id/voteArtistLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:layout_toEndOf="@id/voteNameLabel"
+        android:clickable="false"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/voteScoreLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@id/voteArtistLabel"
+        android:clickable="false"
+        android:layout_centerVertical="true"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Button
+        android:id="@+id/voteUpButton"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/voteScoreLabel"
+        android:clickable="true"
+        android:text="Up" />
+
+    <Button
+        android:id="@+id/voteDownButton"
+        android:layout_width="65dp"
+        android:layout_height="45dp"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@id/voteUpButton"
+        android:clickable="true"
+        android:text="Down" />
+
+
+</RelativeLayout>
